@@ -10,7 +10,7 @@ on:
 
 env:
   IMAGE_NAME: sophiemayhenderson/weather-ml-app
-  IMAGE_VERSION: v1          # change to v2 during the video demo
+  IMAGE_VERSION: v2          # change to v2 during the video demo
 
 jobs:
   build-test-push:

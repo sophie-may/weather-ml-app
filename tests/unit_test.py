@@ -40,7 +40,7 @@ class TestUnit(unittest.TestCase):
 	def test_rainy_classification_output(self):
 		test_input = np.array([279.626,998,99,1,314,0.3,0,0,88]).reshape(1,-1)
 		class_result, _ = classify_weather(test_input)
-		self.assertEqual('rainy', class_result)
+		self.assertEqual('rain', class_result)
 
 
 	# model predicts cloudy at 61%
